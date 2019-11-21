@@ -10,6 +10,7 @@ cd nbody_tucker
 virtualenv -p python2 venv
 source venv/bin/activate
 pip install .
+pytest test/
 ```
 ### Run example
 ```
